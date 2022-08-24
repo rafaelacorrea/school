@@ -31,6 +31,7 @@ defmodule AverageCalculator do
         average: average(&1)
       }
     )
+    |> Enum.sort(:desc)
   end
 
   @doc """
@@ -79,6 +80,6 @@ defmodule AverageCalculator do
     subjects = ["Matemática", "Português", "Geografia", "História"]
 
     subjects
-    |> Enum.map(&(%Subject{name: &1, result: Enum.random(result)}))
+    |> Enum.map(&%Subject{name: &1, result: Enum.random(result)})
   end
 end
