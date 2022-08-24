@@ -20,7 +20,7 @@ defmodule Student do
   """
   def first_name(student), do: student.name |> String.split() |> List.first()
 
-  @spec last_name(atom | %{:name => binary, optional(any) => any}) :: any
+  @spec last_name(%Student{}) :: String.t()
   @doc """
   Get the last name of a Student.
 

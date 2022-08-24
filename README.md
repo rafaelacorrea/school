@@ -23,11 +23,11 @@ iex> {result, best} = AverageCalculator.start()
 and it returns:
 ```bash
 {[
-   %{average: 6.88, first_name: "Rafaela", last_name: "Carvalho"},
-   %{average: 8.2, first_name: "Frank", last_name: "Ferreira"},
-   %{average: 4.78, first_name: "Aneliza", last_name: "Ferreira"},
-   %{average: 4.21, first_name: "Andre", last_name: "Carvalho"}
- ], [%{average: 8.2, first_name: "Frank", last_name: "Ferreira"}]}
+   %{average: 7.5, first_name: "Frank", last_name: "Ferreira"},
+   %{average: 6.68, first_name: "Aneliza", last_name: "Ferreira"},
+   %{average: 6.55, first_name: "Rafaela", last_name: "Carvalho"},
+   %{average: 4.48, first_name: "Andre", last_name: "Carvalho"}
+ ], [%{average: 7.5, first_name: "Frank", last_name: "Ferreira"}]}
 ```
 
 To consult the average result of the students, we use the command below:
